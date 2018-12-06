@@ -1,1 +1,1 @@
-@Library 'template'
+@Library('template') _
