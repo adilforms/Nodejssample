@@ -1,4 +1,3 @@
-@Library('myDeliveryPipeline'){
-  Branch_Name= "master"
-  Repo_Name"= "https://github.com/adilforms/Nodejssample.git"
-    }
+@Library('myDeliveryPipeline')(Branch_Name : "master"
+  Repo_Name" : "https://github.com/adilforms/Nodejssample.git"
+    )
