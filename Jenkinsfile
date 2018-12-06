@@ -1,1 +1,1 @@
-template.createMyStandardDeclarativePipeline(someParam: 'myParam')
+@Library 'template'
