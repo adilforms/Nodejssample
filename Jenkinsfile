@@ -1,0 +1,1 @@
+template.createMyStandardDeclarativePipeline(someParam: 'myParam')
