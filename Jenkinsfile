@@ -1,1 +1,1 @@
-@Library('template') _
+@Library('template.createMyStandardDeclarativePipeline') _
