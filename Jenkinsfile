@@ -1,4 +1,4 @@
-myDeliveryPipeline {
+@library('myDeliveryPipeline') {
     branch = 'master'
     scmUrl = 'ssh://git@myScmServer.com/repos/myRepo.git'
     email = 'team@example.com'
