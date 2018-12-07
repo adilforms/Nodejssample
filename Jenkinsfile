@@ -1,4 +1,4 @@
-@library('myDeliveryPipeline')_
+@Library('myDeliveryPipeline')_
 
 node('master') {
     stage('Checkout') {
