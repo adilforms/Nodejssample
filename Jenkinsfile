@@ -1,3 +1,3 @@
 @Library('myDeliveryPipeline')_
 
-pipelineparams()
+runPipeline()
