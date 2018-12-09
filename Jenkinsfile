@@ -1,3 +1,3 @@
-@Library('evenOrOdd') _
+@Library('myDeliveryPipeline')_
+myDeliveryPipeline()
 
-evenOrOdd(currentBuild.getNumber())
