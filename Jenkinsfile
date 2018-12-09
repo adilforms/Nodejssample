@@ -1,4 +1,3 @@
-@Library
+@Library('myDeliveryPipeline')_
 
-myDeliveryPipeline{
-}
+pipelineparams()
