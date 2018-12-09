@@ -1,11 +1,4 @@
-@Library('myDeliveryPipeline')_
+@Library
 
-node('master') {
-   
-    stage('Checkout') {
-        checkout scm
-    }
-    stage('build'){
-    }
-   
+myDeliveryPipeline{
 }
