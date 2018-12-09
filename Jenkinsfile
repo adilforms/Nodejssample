@@ -1,3 +1,3 @@
-@Library('myDeliveryPipeline')_
+@Library(['myDeliveryPipeline''build-Dockerimage'])_
 myDeliveryPipeline()
 
