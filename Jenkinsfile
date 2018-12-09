@@ -1,3 +1,2 @@
 @Library('myDeliveryPipeline')_
-
-myDeliveryPipeline()
+buildPlugin
