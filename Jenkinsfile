@@ -1,2 +1,3 @@
-@Library('myDeliveryPipeline')_
-buildPlugin
+@Library('my-shared-library') _
+
+evenOrOdd(currentBuild.getNumber())
