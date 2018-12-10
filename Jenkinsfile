@@ -1,4 +1,5 @@
-def env = bulid.getEnvironment()
+import hudson.model.*
+ef env = bulid.getEnvironment()
 def gitcommit =env['GIT_COMMIT']
 def ShortGit = gitcommit[0..6]
 
