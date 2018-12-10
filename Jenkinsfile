@@ -1,1 +1,1 @@
-sh 'echo GIT_COMMIT %GIT_COMMIT%
+sh 'echo GIT_COMMIT %GIT_COMMIT%'
