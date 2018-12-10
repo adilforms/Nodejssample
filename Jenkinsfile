@@ -1,5 +1,9 @@
-String determineRepoName() {
-  return scm.getUserRemoteConfigs()[0].getUrl().tokenize('/').last().split("\\.")[0]
-}
+def env = bulid.getEnvironment()
+def gitcommit =env['GIT_COMMIT']
+def ShortGit = gitcommit[0..6]
 
-return determineRepoName()
+def pa = new ParamertesAction([
+  new StringParametervalue("GitCommit id", shortGitCommit)
+  ])
+
+build.addAction(pa)
