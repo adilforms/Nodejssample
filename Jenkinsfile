@@ -1,2 +1,2 @@
-@Library('NodeJsTemplate')_
-NodeJsTemplate()
+@Library('nodeJsTemplate')_
+nodeJsTemplate()
